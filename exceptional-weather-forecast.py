@@ -97,13 +97,6 @@ def convert_temperature():
         # Thank the user
         print("Thank you for using the weather forecast application!")
     
-    while True:
-        if input:
-            continue_app = input("Would you like to continue using the application? (yes/no): ")
-        if continue_app != 'yes':
-            print("Have a great rest of your day!") 
-            break
-
 convert_temperature() 
 
 
